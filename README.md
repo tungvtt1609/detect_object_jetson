@@ -13,11 +13,10 @@ Follow the **[Hello AI World](#hello-ai-world)** tutorial for running inference 
 ### Run scripts
 * run detect with video:
 >  $ docker/run.sh --volume /usr/share/visionworks/sources/data:/videos
->  # detectnet --threshold=0.35 /videos/pedestrains.mp4
+>  $ detectnet --threshold=0.35 /videos/pedestrains.mp4
 
-> # detectnet /videos/parking.avi
-> # run docker/run.sh for build
-> 
+> $ detectnet /videos/parking.avi
+> $ run docker/run.sh for build
 
 ### Table of Contents
 
