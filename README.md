@@ -9,6 +9,16 @@ Supported DNN vision primitives include [`imageNet`](docs/imagenet-console-2.md)
 
 Follow the **[Hello AI World](#hello-ai-world)** tutorial for running inference and transfer learning onboard your Jetson, including collecting your own datasets, training your own models with PyTorch, and deploying them with TensorRT.
 
+
+### Run scripts
+* run detect with video:
+>  $ docker/run.sh --volume /usr/share/visionworks/sources/data:/videos
+>  # detectnet --threshold=0.35 /videos/pedestrains.mp4
+
+> # detectnet /videos/parking.avi
+> # run docker/run.sh for build
+> 
+
 ### Table of Contents
 
 * [Hello AI World](#hello-ai-world)
